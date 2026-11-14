@@ -1,16 +1,16 @@
 {
-	"name": "pi-starline",
+	"name": "loompi-starline",
 	"version": "0.13.0",
 	"description": "A Starship-inspired statusline and Opencode-style TUI for Pi.",
 	"type": "module",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Andy8647/pi-starline.git"
+		"url": "git+https://github.com/Mahjong404/pi-starline.git"
 	},
-	"homepage": "https://github.com/Andy8647/pi-starline#readme",
+	"homepage": "https://github.com/Mahjong404/pi-starline#readme",
 	"bugs": {
-		"url": "https://github.com/Andy8647/pi-starline/issues"
+		"url": "https://github.com/Mahjong404/pi-starline/issues"
 	},
 	"keywords": [
 		"pi-package",
@@ -21,7 +21,9 @@
 	],
 	"files": [
 		"extensions",
-		"types"
+		"types",
+		"README.md",
+		"docs/fork-differences.md"
 	],
 	"scripts": {
 		"lint": "biome check .",
@@ -44,7 +46,7 @@
 		"extensions": [
 			"./extensions"
 		],
-		"image": "https://raw.githubusercontent.com/Andy8647/pi-starline/main/assets/cover.png"
+		"image": "https://raw.githubusercontent.com/Mahjong404/pi-starline/main/assets/cover.png"
 	},
 	"publishConfig": {
 		"access": "public"

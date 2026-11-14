@@ -64,11 +64,20 @@ A session as a whole: the transcript above, the editor frame in the middle, the 
 
 Needs **Pi 0.84.4 or newer** (0.85.0 or newer for clickable pills) and a [Nerd Font](https://www.nerdfonts.com/) (or set `icons.mode` to `"ascii"`).
 
+This public fork, `Mahjong404/pi-starline`, is based on [Andy8647/pi-starline](https://github.com/Andy8647/pi-starline). The selected npm distribution name is `loompi-starline`; publication is pending. The fork preserves the existing Pi extension entry point and settings format. See [fork differences](docs/fork-differences.md) for the current compatibility statement.
+
+Install directly from the fork while npm publication is pending:
+
 ```bash
-pi install npm:pi-starline
-# or from git
-pi install git:github.com/Andy8647/pi-starline
+pi install git:github.com/Mahjong404/pi-starline
 ```
+
+After publication, install the individual npm package with:
+
+```bash
+pi install npm:loompi-starline
+```
+
 
 Runs on macOS, Linux and Windows. On Windows, use Windows Terminal with a [Nerd Font](https://www.nerdfonts.com/) installed. A legacy console host, or a terminal left on its default font, makes the bar look nothing like the screenshots: empty boxes where the icons should be, and no mouse.
 
