@@ -437,7 +437,7 @@ ${bullets
 	.join("\n")}
 
     <rect x="72" y="556" width="352" height="42" rx="10" fill="${MOCHA.mantle}" stroke="${MOCHA.surface0}"/>
-    <text x="92" y="583" font-size="15" fill="${MOCHA.overlay0}">$ <tspan fill="${MOCHA.text}">pi install npm:pi-starline</tspan></text>
+    <text x="92" y="583" font-size="15" fill="${MOCHA.overlay0}">$ <tspan fill="${MOCHA.text}">pi install npm:pi-loom-starline</tspan></text>
   </g>
 
   <!-- Right: a session, with the git bubble open -->

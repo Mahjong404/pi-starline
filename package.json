@@ -1,5 +1,5 @@
 {
-	"name": "loompi-starline",
+	"name": "pi-loom-starline",
 	"version": "0.13.0",
 	"description": "A Starship-inspired statusline and Opencode-style TUI for Pi.",
 	"type": "module",
